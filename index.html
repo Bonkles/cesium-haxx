@@ -1,7 +1,7 @@
 <html>
     <head>
         <tittle>
-            Cesium hacky demo
+            Cesium loading from locally loaded deps ONLY
         </title>
         <style>
             @import url('./widgets.css')
@@ -15,8 +15,10 @@
                 <h1>Loading...</h1>
             </div>
             <div id="toolbar"></div>
-            <script crossorigin="anonymous"
-                src="https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Cesium.js"></script>
+            <!-- <script crossorigin="anonymous"
+             src="https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Cesium.js"></script> -->
+            <script src="./cesiumLib.js"></script>
+
             <script src="cesium.js"></script>
 </body>
 </html>
